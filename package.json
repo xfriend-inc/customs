@@ -1,0 +1,21 @@
+{
+  "name": "customs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r ts-node/register -r tsconfig-paths/register --test ./src/**/*.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": "^22.0.0"
+  }
+}

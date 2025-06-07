@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Define para qual versão do ECMAScript o TypeScript compilará.
+    "module": "commonjs", // Especifica o sistema de módulos, aqui configurado para commonjs.
+    "lib": [
+      "ES2022" // Indica as bibliotecas padrão do ambiente, configurado para ES2022.
+    ],
+    "allowJs": true, // Permite a inclusão de arquivos JavaScript no projeto.
+    "outDir": "build", // Define o diretório de saída para os arquivos compilados.
+    "strict": true, // Ativa todas as opções estritas de checagem de tipos.
+    "noImplicitAny": true, // Impede declarações implícitas do tipo 'any'.
+    "strictPropertyInitialization": false, // Desativa a verificação estrita de inicialização de propriedades.
+    "strictNullChecks": false, // Desativa a verificação estrita de nulos.
+    "baseUrl": ".", // Define o diretório base para a resolução de módulos.
+    "paths": {
+      "@base/*": [
+        "src/*"
+      ],
+      "test/*": [
+        "test/*"
+      ]
+    }, // Configuração de aliases para caminhos de importação mais curtos.
+    "esModuleInterop": true, // Facilita a interoperabilidade entre módulos do ES6 e CommonJS.
+    "experimentalDecorators": true, // Habilita suporte a decoradores.
+    "emitDecoratorMetadata": true, // Habilita a geração de metadados para decoradores.
+    "skipLibCheck": true, // Pula a verificação de bibliotecas de definição de tipos.
+    "forceConsistentCasingInFileNames": true // Garante consistência nos nomes de arquivo em sistemas de arquivos que diferenciam maiúsculas de minúsculas.
+  }
+}
